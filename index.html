@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="./assets/themify/themify-icons/themify-icons.css">
+    <link rel="stylesheet" href="./assets/swiper/package/swiper-bundle.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/responsive_style.css">
+    <link rel="icon" href="./assets/images/logo/favicon.png">
+    <title>ONESHOT</title>
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#navbarText" data-bs-offset="0" class="navbar-nav" tabindex="0">
+
+    <!-- Header Section -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-sticky">
+            <div class="container">
+                <a class="navbar-brand" href="#home">
+                    <img src="./assets/images/logo/oneshot-white.png" alt="#logo"
+                        class="img-fluid navbar-brand-regular">
+                    <img src="./assets/images/logo/oneshot-pink.png" alt="#logo" class="img-fluid navbar-brand-sticky">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="ti-align-justify navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link scroll active" aria-current="page" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link scroll" href="#features">Features</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link scroll" href="#app-screenshots">Screenshots</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link scroll" href="#pricing">Pricing</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link scroll" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Start Home  -->
+    <section id="home">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-sm-12 col-lg-6">
+                    <div class="home_text">
+                        <h2>Present your app with <span class="text-uppercase">oneshot</span></h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis necessitatibus eligendi
+                            aliquid ratione nam porro perspiciatis at, enim quia in quam doloribus? Placeat temporibus,
+                            praesentium, laborum molestiae debitis officiis voluptates, quasi esse sint corporis tempora
+                            non soluta ipsum nostrum? Provident, atque recusandae? Totam porro amet, explicabo dolorum
+                            ab corporis quam, iusto consequatur qui assumenda odio inventore dolore quo ullam fugit
+                            maiores! In excepturi quod ad repellendus maxime quam ab illo, omnis fugit reprehenderit
+                            dolorem beatae laboriosam, qui necessitatibus nulla ipsa?</p>
+
+                        <!-- Home Download Btn  -->
+                        <div class="home-download-btn">
+                            <a href="" class="btn btn-border mt-4"><span class="ti-control-play"> Play Store</span></a>
+                            <a href="" class="btn btn-border mt-4"><span class="ti-apple"> App Store</span></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-lg-6">
+                    <div class="home-image">
+                        <img src="./assets/images/phone.png" alt="#mobileimg" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Counter Area Start -->
+    <section class="section counter_area">
+        <div class="container">
+            <div class="row justify-content-center">
+                <!-- single counter  -->
+                <div class="col-6 col-sm-3 single_counter text-center">
+                    <div class="counter_inner p-3 p-md-0">
+                        <!-- Counter Item  -->
+                        <div class="counter_item d-inline-block mb-3">
+                            <span id="count1" class="counter fw-bold">10</span>
+                            <span class="fw-bold">M</span>
+                        </div>
+                        <h5>Users</h5>
+                    </div>
+                </div>
+                <!-- single counter  -->
+                <div class="col-6 col-sm-3 single_counter text-center">
+                    <div class="counter_inner p-3 p-md-0">
+                        <!-- Counter Item  -->
+                        <div class="counter_item d-inline-block mb-3">
+                            <span id="count2" class="counter fw-bold">23</span>
+                            <span class="fw-bold">K</span>
+                        </div>
+                        <h5>Download</h5>
+                    </div>
+                </div>
+                <!-- single counter  -->
+                <div class="col-6 col-sm-3 single_counter text-center">
+                    <div class="counter_inner p-3 p-md-0">
+                        <!-- Counter Item  -->
+                        <div class="counter_item d-inline-block mb-3">
+                            <span id="count3" class="counter fw-bold">9</span>
+                            <span class="fw-bold">M</span>
+                        </div>
+                        <h5>Customer</h5>
+                    </div>
+                </div>
+                <!-- single counter  -->
+                <div class="col-6 col-sm-3 single_counter text-center">
+                    <div class="counter_inner p-3 p-md-0">
+                        <!-- Counter Item  -->
+                        <div class="counter_item d-inline-block mb-3">
+                            <span id="count4" class="counter fw-bold">12</span>
+                            <span class="fw-bold">K</span>
+                        </div>
+                        <h5>Developer</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Promo Section Start  -->
+    <section class="promo_section">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-7 col-md-8">
+                    <!-- section heading  -->
+                    <div class="section_heading text-center">
+                        <h2>Why do every people <br><span>love App-mobile?</span></h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Aliquid natus odit est ratione
+                            eaque ipsum.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row mobile_px_20">
+                <!-- single promo  -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="single_promo_hover single_promo_1 text-center">
+                        <div class="circle-icon">
+                            <span class="ti-heart-broken text-white"></span>
+                        </div>
+                        <h5>Clean Design</h5>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta numquam reprehenderit
+                            praesentium.</p>
+                    </div>
+                </div>
+                <!-- single promo  -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="single_promo_hover single_promo_1 text-center">
+                        <div class="circle-icon">
+                            <span class="ti-unlock text-white"></span>
+                        </div>
+                        <h5>Secure Data</h5>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta numquam reprehenderit
+                            praesentium.</p>
+                    </div>
+                </div>
+                <!-- single promo  -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="single_promo_hover single_promo_1 text-center">
+                        <div class="circle-icon">
+                            <span class="ti-panel text-white"></span>
+                        </div>
+                        <h5>Retina Ready</h5>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta numquam reprehenderit
+                            praesentium.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section Start  -->
+    <section id="features">
+        <div class="title">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-5 offset-md-1">
+                        <!-- feature middle  -->
+                        <div class="features_middle">
+                            <h2>Our special features</h2>
+                            <!-- sub title  -->
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut aperiam quis nesciunt natus
+                                quas? Similique at unde quidem. Commodi repellat, non perspiciatis nobis veritatis quam?
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-5">
+                        <!-- feature img  -->
+                        <div class="feature_img">
+                            <img src="./assets/images/service-1.png" alt="#featureImg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid margin_top_up ipad_px_30">
+            <div class="row">
+                <div class="col-sm-12 col-lg-10 offset-lg-1">
+                    <div class="row">
+                        <!-- single feature  -->
+                        <div class="col-sm-6 col-lg-4">
+                            <div class="single_feature">
+                                <h4>Beautiful Design</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio veniam obcaecati
+                                    porro quae, debitis quibusdam illo</p>
+                                <div class="feature_icon">
+                                    <i class="fas fa-air-freshener"></i>
+                                    <!-- <i class="fa-solid fa-tree"></i> -->
+                                </div>
+                            </div>
+                        </div>
+                        <!-- single feature  -->
+                        <div class="col-sm-6 col-lg-4">
+                            <div class="single_feature">
+                                <h4>Pure and Simple</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio veniam obcaecati
+                                    porro quae, debitis quibusdam illo?</p>
+                                <div class="feature_icon">
+                                    <i class="fas fa-anchor"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- single feature  -->
+                        <div class="col-sm-6 col-lg-5">
+                            <div class="single_feature">
+                                <h4>Color Schemes</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio veniam obcaecati
+                                    porro quae, debitis quibusdam illo</p>
+                                <div class="feature_icon">
+                                    <i class="fa fa-home"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- single feature  -->
+                        <div class="col-sm-6 col-lg-5">
+                            <div class="single_feature">
+                                <h4>Wow Animations</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio veniam obcaecati
+                                    porro quae, debitis quibusdam illo</p>
+                                <div class="feature_icon">
+                                    <i class="fa fa-bell-slash"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- single feature  -->
+                        <div class="col-sm-6 col-lg-6">
+                            <div class="single_feature">
+                                <h4>Excellent Everything</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio veniam obcaecati
+                                    porro quae, debitis quibusdam illo?</p>
+                                <div class="feature_icon">
+                                    <i class="fa fa-cloud-download-alt"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- single feature  -->
+                        <div class="col-sm-6 col-lg-6">
+                            <div class="single_feature">
+                                <h4>Easy To Customize</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio veniam obcaecati
+                                    porro quae, debitis quibusdam illo</p>
+                                <div class="feature_icon">
+                                    <i class="fas fa-atom"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- app-screenshots Section Start  -->
+    <section id="app-screenshots" class="ptb_100">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-6">
+                    <!-- screenshots title  -->
+                    <div class="section_heading text-center mb-5">
+                        <h2 class="section_title">App Screenshots</h2>
+                        <!-- section sub title  -->
+                        <p class="section_sub_title">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam veniam odio nisi perferendis
+                            ipsam quia dolorum repudiandae.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="swiper-container app-screen">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <!-- single screenshot image  -->
+                    <div class="slider-image">
+                        <img src="./assets/images/screenshots/1.jpg" alt="#slide1">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <!-- single screenshot image  -->
+                    <div class="slider-image">
+                        <img src="./assets/images/screenshots/2.jpg" alt="#slide2">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <!-- single screenshot image  -->
+                    <div class="slider-image">
+                        <img src="./assets/images/screenshots/3.jpg" alt="#slide3">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <!-- single screenshot image  -->
+                    <div class="slider-image">
+                        <img src="./assets/images/screenshots/4.jpg" alt="#slide4">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <!-- single screenshot image  -->
+                    <div class="slider-image">
+                        <img src="./assets/images/screenshots/5.jpg" alt="#slide5">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <!-- single screenshot image  -->
+                    <div class="slider-image">
+                        <img src="./assets/images/screenshots/6.jpg" alt="#slide6">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <!-- single screenshot image  -->
+                    <div class="slider-image">
+                        <img src="./assets/images/screenshots/7.jpg" alt="#slide7">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <!-- single screenshot image  -->
+                    <div class="slider-image">
+                        <img src="./assets/images/screenshots/8.jpg" alt="#slide8">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <!-- single screenshot image  -->
+                    <div class="slider-image">
+                        <img src="./assets/images/screenshots/9.jpg" alt="#slide9">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <!-- single screenshot image  -->
+                    <div class="slider-image">
+                        <img src="./assets/images/screenshots/10.jpg" alt="#slide10">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <!-- single screenshot image  -->
+                    <div class="slider-image">
+                        <img src="./assets/images/screenshots/11.jpg" alt="#slide11">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <!-- single screenshot image  -->
+                    <div class="slider-image">
+                        <img src="./assets/images/screenshots/12.jpg" alt="#slide12">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <!-- single screenshot image  -->
+                    <div class="slider-image">
+                        <img src="./assets/images/screenshots/13.jpg" alt="#slide13">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <!-- single screenshot image  -->
+                    <div class="slider-image">
+                        <img src="./assets/images/screenshots/14.jpg" alt="#slide14">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <!-- single screenshot image  -->
+                    <div class="slider-image">
+                        <img src="./assets/images/screenshots/15.jpg" alt="#slide15">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <!-- single screenshot image  -->
+                    <div class="slider-image">
+                        <img src="./assets/images/screenshots/16.jpg" alt="#slide16">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <!-- single screenshot image  -->
+                    <div class="slider-image">
+                        <img src="./assets/images/screenshots/17.jpg" alt="#slide17">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <!-- single screenshot image  -->
+                    <div class="slider-image">
+                        <img src="./assets/images/screenshots/18.jpg" alt="#slide18">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <!-- single screenshot image  -->
+                    <div class="slider-image">
+                        <img src="./assets/images/screenshots/19.jpg" alt="#slide19">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <!-- single screenshot image  -->
+                    <div class="slider-image">
+                        <img src="./assets/images/screenshots/20.jpg" alt="#slide20">
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+
+    <!-- Pricing Section Start  -->
+    <section id="pricing" class="ptb_100">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 offset-md-3">
+                    <!-- pricing title  -->
+                    <div class="section_heading text-center">
+                        <h2>Approdable Packages</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos iusto dolore quibusdam tempore
+                            corrupti impedit hic asperiores.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row mobile_px_20">
+                <!-- single price  -->
+                <div class="col-md-6 col-lg-3">
+                    <div class="single_price">
+                        <!-- month  -->
+                        <div class="month">Month</div>
+                        <h5>premium</h5>
+                        <div class="icon_pad">
+                            <!-- icon-circle  -->
+                            <div class="icon_circle">
+                                <span class="ti-medall"></span>
+                            </div>
+                        </div>
+                        <!-- dolar -->
+                        <div class="dolar">
+                            <h2>
+                                <span class="dolar_sign">$</span>35
+                            </h2>
+                        </div>
+                        <!-- features list  -->
+                        <ul>
+                            <br>
+                            <li>5GB Linux Web Space</li>
+                            <li>5 MySQL Database</li>
+                            <li>24/7 Tech Support</li>
+                            <li>Daily Backups</li>
+                        </ul>
+                        <!-- btn  -->
+                        <a href="#" class="btn btn-bordered mt-4">learn more</a>
+                    </div>
+                </div>
+                <!-- single price  -->
+                <div class="col-md-6 col-lg-3">
+                    <div class="single_price">
+                        <!-- month  -->
+                        <div class="month">Month</div>
+                        <h5>basic</h5>
+                        <div class="icon_pad">
+                            <!-- icon-circle  -->
+                            <div class="icon_circle">
+                                <span class="ti-clipboard"></span>
+                            </div>
+                        </div>
+                        <!-- dolar -->
+                        <div class="dolar">
+                            <h2>
+                                <span class="dolar_sign">$</span>50
+                            </h2>
+                        </div>
+                        <!-- features list  -->
+                        <ul>
+                            <br>
+                            <li>5GB Linux Web Space</li>
+                            <li>5 MySQL Database</li>
+                            <li>24/7 Tech Support</li>
+                            <li>Daily Backups</li>
+                        </ul>
+                        <!-- btn  -->
+                        <a href="#" class="btn btn-bordered mt-4">learn more</a>
+                    </div>
+                </div>
+                <!-- single price  -->
+                <div class="col-md-6 col-lg-3">
+                    <div class="single_price active_price">
+                        <!-- month  -->
+                        <div class="month">Month</div>
+                        <h5>Addict</h5>
+                        <div class="icon_pad">
+                            <!-- icon-circle  -->
+                            <div class="icon_circle">
+                                <span class="ti-crown"></span>
+                            </div>
+                        </div>
+                        <!-- dolar -->
+                        <div class="dolar">
+                            <h2>
+                                <span class="dolar_sign">$</span>60
+                            </h2>
+                        </div>
+                        <!-- features list  -->
+                        <ul>
+                            <br>
+                            <li>5GB Linux Web Space</li>
+                            <li>5 MySQL Database</li>
+                            <li>24/7 Tech Support</li>
+                            <li>Daily Backups</li>
+                        </ul>
+                        <!-- btn  -->
+                        <a href="#" class="btn btn-bordered mt-4">learn more</a>
+                    </div>
+                </div>
+                <!-- single price  -->
+                <div class="col-md-6 col-lg-3">
+                    <div class="single_price">
+                        <!-- month  -->
+                        <div class="month">Month</div>
+                        <h5>Business</h5>
+                        <div class="icon_pad">
+                            <!-- icon-circle  -->
+                            <div class="icon_circle">
+                                <span class="ti-gift"></span>
+                            </div>
+                        </div>
+                        <!-- dolar -->
+                        <div class="dolar">
+                            <h2>
+                                <span class="dolar_sign">$</span>85
+                            </h2>
+                        </div>
+                        <!-- features list  -->
+                        <ul>
+                            <br>
+                            <li>5GB Linux Web Space</li>
+                            <li>5 MySQL Database</li>
+                            <li>24/7 Tech Support</li>
+                            <li>Daily Backups</li>
+                        </ul>
+                        <!-- btn  -->
+                        <a href="#" class="btn btn-bordered mt-4">learn more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section Start  -->
+    <section id="contact">
+        <div class="contact ptb_100">
+            <div class="container">
+                <div class="mb-5 text-center">
+                    <h5>Let's Start a Conversation!</h5>
+                    <h2 class="fw-bold">Contact Us</h2>
+                </div>
+            </div>
+            <div class="mobile_px_20">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-5 col-md-5">
+                            <h4 class="fw-bold">Contact Info</h4>
+                            <ul class="info list-unstyled">
+                                <li class="d-flex align-items-center">
+                                    <span class="pe-3 ti-location-pin fs-5"></span>
+                                    <p><a href="#">Lorem ipsum dolor sit amet consectetur adipisicing.</a></p>
+                                </li>
+                                <li class="d-flex align-items-center">
+                                    <span class="pe-3 ti-mobile fs-5"></span>
+                                    <p><a href="#">+91 0123456789</a></p>
+                                </li>
+                                <li class="d-flex align-items-center">
+                                    <span class="pe-3 ti-envelope fs-5"></span>
+                                    <p><a href="#">info@oneshot.in</a></p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-7 col-md-7 pt-lg-0 pt-md-0 pt-4">
+                            <form>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <input type="text" name="name" class="form-control" placeholder="Your name">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <input type="email" name="email" class="form-control"
+                                                placeholder="Your email address">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <textarea name="message" cols="30" rows="4" id="" class="textarea"
+                                                placeholder="Enter your message"></textarea>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <button class="btn"><span class="ti-rocket pe-2 fs-5"></span>Send
+                                            Message</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section Start  -->
+    <footer>
+        <div class="p-3 copyright">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-12 col-lg-6 p-3 text-center text-lg-start mob-pb-0">
+                        <p class="my-0">Copyright &#169; 2025 <a href="#">ONESHOT</a> All Rights Reserved</p>
+                    </div>
+                    <div class="col-12 col-lg-6 p-3 text-center text-lg-end mob-pt-0">
+                        <p>Designed by <a href="#">APP-DESIGNER</a>.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll Top Icon  -->
+    <div id="scrollUp" title="Scroll To Top">
+        <a href="#home"><span class="ti-arrow-up text-white"></span></a>
+    </div>
+
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script> 
+<script src="./assets/js/style.js"></script>
+
+</html>
