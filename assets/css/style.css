@@ -547,6 +547,7 @@ img {
 
 .app-screen {
     padding-bottom: 5.313rem;
+    overflow: hidden;
 }
 
 .app-screen .swiper-slide {
