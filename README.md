@@ -21,16 +21,16 @@ This project is a responsive frontend website design inspired by app designs. It
 ## File Structure
 ```
 project-folder/
-├── index.html       # Main HTML file
-├── assets           
+├── index.html                   # Main HTML file
+├── assets/           
 │   ├── css/
 │   │   ├── styles.css           # Custom CSS styles
 │   │   ├── responsive_style.css # Responsive CSS styles
 │   ├── js/
 │   │   ├── style.js             # Custom JavaScript
 │   ├── images/                  # Images used in the project
-│   ├── themify/                 # Icon files
-└── README.md        # Documentation
+│   └── themify/                 # Icon files
+└── README.md                    # Documentation
 ```
 
 ## Usage
