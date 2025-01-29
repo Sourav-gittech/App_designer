@@ -387,6 +387,11 @@ img {
     padding: 6.25rem 0 4rem;
 }
 
+.promo_section #promoSectionCard{
+    display: flex;
+    justify-content: space-evenly;
+}
+
 .section_heading {
     margin-bottom: 2.813rem;
 }
